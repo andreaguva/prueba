@@ -39,7 +39,7 @@ if (isset($_GET['keyword'])) {
 <body>
 
 <div class="container">
-    <h1>Pixabay API</h1>
+    <h1>Buscar imagen del producto</h1>
     <hr>
 
     <div class="row">

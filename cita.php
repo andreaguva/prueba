@@ -1,6 +1,6 @@
 <?php
 require_once 'model/database.php';
-require_once 'model/comprador.php';
+require_once 'model/cliente.php';
 $controller = 'cita';
 
 // Todo esta lógica hara el papel de un FrontController

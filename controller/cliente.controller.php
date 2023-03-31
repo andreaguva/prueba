@@ -1,5 +1,5 @@
 <?php
-require_once 'model/comprador.php';
+require_once 'model/cliente.php';
 
 class ClienteController{
     
@@ -11,7 +11,7 @@ class ClienteController{
     
     public function Index(){
         require_once 'vistas/header.php';
-        require_once 'vistas/comprador/comprador.php';
+        require_once 'vistas/cliente/cliente.php';
     }
     
     public function Crud(){
@@ -22,7 +22,7 @@ class ClienteController{
         }
         
         require_once 'vistas/header.php';
-        require_once 'vistas/comprador/compradorEditar.php';
+        require_once 'vistas/cliente/clienteEditar.php';
     }
     
     public function Guardar(){
@@ -43,11 +43,11 @@ class ClienteController{
             ? $this->model->Actualizar($clie)
             : $this->model->Registrar($clie);
         
-        header('Location: comprador.php');
+        header('Location: cliente.php');
     }
     
     public function Eliminar(){
         $this->model->Eliminar($_REQUEST['id']);
-        header('Location: comprador.php');
+        header('Location: cliente.php');
     }
 }

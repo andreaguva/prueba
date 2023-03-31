@@ -9,7 +9,7 @@
   <li class="active"><?php echo $clie->id != null ? $clie->nombreCliente : 'Nuevo Registro'; ?></li>
 </ol>
 
-<form id="frm-comprador" action="?c=Cliente&a=Guardar" method="post" enctype="multipart/form-data">
+<form id="frm-cliente" action="?c=Cliente&a=Guardar" method="post" enctype="multipart/form-data">
     <input type="hidden" name="id" value="<?php echo $clie->id; ?>" />
     
     <div class="form-group">
@@ -60,7 +60,7 @@
 
 <script>
     $(document).ready(function(){
-        $("#frm-comprador").submit(function(){
+        $("#frm-cliente").submit(function(){
             return $(this).validate();
         });
     })

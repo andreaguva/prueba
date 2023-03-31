@@ -47,8 +47,8 @@ session_start();
                             <i class="bi-send me-3">Ingresar</i>
                           </button>
                           <div class="icono" data-bs-toggle="modal" data-bs-target="#modalregistro">
-                          <a  type="buttom" href="http://localhost/prueba/comprador.php?c=Cliente&a=Crud" class="btn" >
-                            <i class="bi-person-rolodex me-3"> Nuevo Cliente</i>
+                          <a  type="buttom" href="http://localhost/prueba/cliente.php?c=Cliente&a=Crud" class="btn" >
+                            <i class="bi-person-rolodex me-3"> Nuevo Comprador</i>
                           </a> 
                           </div>
                 </div>

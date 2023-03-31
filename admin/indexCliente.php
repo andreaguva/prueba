@@ -48,7 +48,7 @@ if (!isset($_SESSION["rol"])) {
             </li>-->
     
             <li class="nav-item ">
-            <a class="nav-link active" href="../comprador.php" style="color: #090911;font-size: 20px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif"><i class="bi bi-house"></i>Clientes</a>
+            <a class="nav-link active" href="../cliente.php" style="color: #090911;font-size: 20px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif"><i class="bi bi-house"></i>Clientes</a>
             </li>            
               
             <li class="nav-item ">

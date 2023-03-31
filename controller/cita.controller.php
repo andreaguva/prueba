@@ -1,6 +1,6 @@
 <?php
 require_once 'model/cita.php';
-require_once 'model/comprador.php';
+require_once 'model/cliente.php';
 class CitaController{
     
     private $model;
